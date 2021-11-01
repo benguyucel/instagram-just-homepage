@@ -1,0 +1,41 @@
+@media  screen and (max-width: 968px) {
+    nav{
+        display: none;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+   
+  }
+  @media screen and (min-width:554px) {
+      .search-form-container{
+          display: flex;
+          justify-content: end;
+      }
+  }
+  @media  screen and (max-width: 554px) {
+      .logo{
+          width: auto!important;
+      }
+            
+  }
+  
+  @media  screen and (max-width: 542px) {
+    .search-form-container{
+        display: none;
+    }
+}
+
+@media  screen and (max-width: 1000px) {
+    
+    .left{
+        margin: 0 auto;
+    }
+    main .right{
+        display: none;
+        visibility: hidden;
+    }
+    nav{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

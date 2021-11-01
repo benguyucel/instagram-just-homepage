@@ -1,0 +1,35 @@
+/** Justify Content **/
+.space-between {
+  justify-content: space-between;
+}
+.flex-start {
+  align-items: flex-start;
+}
+.align-items-center {
+  align-items: center;
+}
+.col-3 {
+  width: calc(100% / 3);
+}
+
+.mt-15 {
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+
+.mt-4 {
+  margin-top: 4px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mr-12 {
+  margin-right: 12px;
+}
+.ml-12{
+  margin-left: 12px;
+}
+.no-wraper {
+  background: none;
+}
